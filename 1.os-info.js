@@ -1,4 +1,4 @@
-const os = require("os");
+const os = require("node:os");
 
 console.log("Nombre del sistema", os.platform());
 console.log("Arquitectura", os.arch());
